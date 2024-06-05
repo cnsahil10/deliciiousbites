@@ -85,7 +85,7 @@
     margin-top: 10px;
 }
 .container{
-    height: 1000px;
+    height: 800px;
     background-color: black;
     display: flex;
     justify-content:space-between;
@@ -117,10 +117,100 @@
 }
 .contactus{
     margin-top: 70px;
+    padding-top: 50px;
     width: 50%;
 }
 .contactus h1{
     font-family: sans-serif;
     color: white;
     text-align: center;
+}
+.form{
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(95, 160, 114);
+    border-color: white;
+    /* width: 80%; */
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+.row input{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+}
+.row input:hover{
+    opacity: 0.77;
+    transition: 0.35s;
+}
+.row textarea{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.row textarea:hover{
+    opacity: 0.77;
+    transition: 0.35s;
+}
+.row button{
+    width: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    border: 0;
+}
+.row button:hover{
+    opacity: 0.77;
+    transition: 0.35s;
+}
+.footer{
+    height: 200px;
+}
+.icons{
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.flists{
+    padding-top: 30px;
+    margin-left: 350px;
+}
+.flists li{
+    display: inline-block;
+    padding-right: 200px;
+    color: black;
+}
+.flists li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    opacity: 0.95;
+}
+.flists li a:hover{
+    color: green;
+}
+.flists li a:active{
+    opacity: 1;
+}
+.copy h4{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    opacity: 0.70;
+}
+.copy{
+    margin-top: 40px;
 }
